@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 生成 daisy_chaining.svg Page-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="3.6782in" height="5.50649in"
+		viewBox="0 0 264.831 396.467" xml:space="preserve" color-interpolation-filters="sRGB" class="st9">
+	<v:documentProperties v:langID="2052" v:metric="true" v:viewMarkup="false">
+		<v:userDefs>
+			<v:ud v:nameU="msvSubprocessMaster" v:prompt="" v:val="VT4(Rectangle)"/>
+			<v:ud v:nameU="msvNoAutoConnect" v:val="VT0(1):26"/>
+		</v:userDefs>
+	</v:documentProperties>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:#ffffff;stroke:#000000;stroke-width:0.25}
+		.st2 {fill:#000000;font-family:Calibri;font-size:0.833336em}
+		.st3 {fill:none;stroke:none;stroke-width:0.25}
+		.st4 {fill:#000000;font-family:Calibri;font-size:0.666664em}
+		.st5 {font-size:1em}
+		.st6 {marker-end:url(#mrkr4-46);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st7 {fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0.28409090909091}
+		.st8 {marker-start:url(#mrkr4-52);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st9 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Markers">
+		<g id="lend4">
+			<path d="M 2 1 L 0 0 L 2 -1 L 2 1 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr4-46" class="st7" v:arrowType="4" v:arrowSize="2" v:setback="7.04" refX="-7.04" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend4" transform="scale(-3.52,-3.52) "/>
+		</marker>
+		<marker id="mrkr4-52" class="st7" v:arrowType="4" v:arrowSize="2" v:setback="6.68" refX="6.68" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend4" transform="scale(3.52) "/>
+		</marker>
+	</defs>
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<v:userDefs>
+			<v:ud v:nameU="msvThemeOrder" v:val="VT0(0):26"/>
+		</v:userDefs>
+		<title>页-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<v:layer v:name="连接线" v:index="0"/>
+		<g id="group7-1" transform="translate(18.25,-264.832)" v:mID="7" v:groupContext="group">
+			<title>工作表.7</title>
+			<g id="shape1-2" v:mID="1" v:groupContext="shape">
+				<title>矩形</title>
+				<desc>Master</desc>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197" v:verticalAlign="0"/>
+				<v:textRect cx="30.0472" cy="339.775" width="60.1" height="113.386"/>
+				<rect x="0" y="283.082" width="60.0945" height="113.386" class="st1"/>
+				<text x="15.52" y="296.08" class="st2" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Master</text>			</g>
+			<g id="shape4-5" v:mID="4" v:groupContext="shape" transform="translate(20.4095,-1.13687E-13)">
+				<title>工作表.4</title>
+				<desc>MOSI MISO SCLK SS</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="19.8425" cy="352.627" width="39.69" height="87.6813"/>
+				<rect x="0" y="308.786" width="39.685" height="87.6813" class="st3"/>
+				<text x="17.86" y="326.23" class="st4" v:langID="2052"><v:paragraph v:horizAlign="2"/><v:tabList/>MOSI<v:newlineChar/><v:newlineChar/><tspan
+							x="17.86" dy="2.4em" class="st5">MISO<v:newlineChar/><v:newlineChar/></tspan><tspan x="20.22"
+							dy="2.4em" class="st5">SCLK<v:newlineChar/><v:newlineChar/></tspan><tspan x="28.33" dy="2.4em"
+							class="st5">SS</tspan></text>			</g>
+		</g>
+		<g id="group11-11" transform="translate(193.573,-272.202)" v:mID="11" v:groupContext="group">
+			<title>工作表.11</title>
+			<g id="shape9-12" v:mID="9" v:groupContext="shape">
+				<title>矩形</title>
+				<desc>Slave0</desc>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197" v:verticalAlign="0"/>
+				<v:textRect cx="26.5039" cy="348.278" width="53.01" height="96.3779"/>
+				<rect x="0" y="300.089" width="53.0079" height="96.3779" class="st1"/>
+				<text x="13.38" y="313.09" class="st2" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Slave0</text>			</g>
+			<g id="shape10-15" v:mID="10" v:groupContext="shape">
+				<title>工作表.10</title>
+				<desc>MOSI MISO SCLK SS</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="17.5026" cy="359.971" width="35.01" height="72.9921"/>
+				<rect x="0" y="323.475" width="35.0052" height="72.9921" class="st3"/>
+				<text x="4" y="333.57" class="st4" v:langID="2052"><v:paragraph/><v:tabList/>MOSI<v:newlineChar/><v:newlineChar/><tspan
+							x="4" dy="2.4em" class="st5">MISO<v:newlineChar/><v:newlineChar/></tspan><tspan x="4" dy="2.4em"
+							class="st5">SCLK<v:newlineChar/><v:newlineChar/></tspan><tspan x="4" dy="2.4em" class="st5">SS</tspan></text>			</g>
+		</g>
+		<g id="group12-21" transform="translate(193.573,-146.06)" v:mID="12" v:groupContext="group">
+			<title>工作表.12</title>
+			<g id="shape13-22" v:mID="13" v:groupContext="shape">
+				<title>矩形</title>
+				<desc>Slave1</desc>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197" v:verticalAlign="0"/>
+				<v:textRect cx="26.5039" cy="348.278" width="53.01" height="96.3779"/>
+				<rect x="0" y="300.089" width="53.0079" height="96.3779" class="st1"/>
+				<text x="13.38" y="313.09" class="st2" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Slave1</text>			</g>
+			<g id="shape14-25" v:mID="14" v:groupContext="shape">
+				<title>工作表.14</title>
+				<desc>MOSI MISO SCLK SS</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="17.5026" cy="359.971" width="35.01" height="72.9921"/>
+				<rect x="0" y="323.475" width="35.0052" height="72.9921" class="st3"/>
+				<text x="4" y="333.57" class="st4" v:langID="2052"><v:paragraph/><v:tabList/>MOSI<v:newlineChar/><v:newlineChar/><tspan
+							x="4" dy="2.4em" class="st5">MISO<v:newlineChar/><v:newlineChar/></tspan><tspan x="4" dy="2.4em"
+							class="st5">SCLK<v:newlineChar/><v:newlineChar/></tspan><tspan x="4" dy="2.4em" class="st5">SS</tspan></text>			</g>
+		</g>
+		<g id="group15-31" transform="translate(193.573,-19.9182)" v:mID="15" v:groupContext="group">
+			<title>工作表.15</title>
+			<g id="shape16-32" v:mID="16" v:groupContext="shape">
+				<title>矩形</title>
+				<desc>Slave2</desc>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197" v:verticalAlign="0"/>
+				<v:textRect cx="26.5039" cy="348.278" width="53.01" height="96.3779"/>
+				<rect x="0" y="300.089" width="53.0079" height="96.3779" class="st1"/>
+				<text x="13.38" y="313.09" class="st2" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Slave2</text>			</g>
+			<g id="shape17-35" v:mID="17" v:groupContext="shape">
+				<title>工作表.17</title>
+				<desc>MOSI MISO SCLK SS</desc>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="17.5026" cy="359.971" width="35.01" height="72.9921"/>
+				<rect x="0" y="323.475" width="35.0052" height="72.9921" class="st3"/>
+				<text x="4" y="333.57" class="st4" v:langID="2052"><v:paragraph/><v:tabList/>MOSI<v:newlineChar/><v:newlineChar/><tspan
+							x="4" dy="2.4em" class="st5">MISO<v:newlineChar/><v:newlineChar/></tspan><tspan x="4" dy="2.4em"
+							class="st5">SCLK<v:newlineChar/><v:newlineChar/></tspan><tspan x="4" dy="2.4em" class="st5">SS</tspan></text>			</g>
+		</g>
+		<g id="shape21-41" v:mID="21" v:groupContext="shape" v:layerMember="0" transform="translate(78.5976,-330.879)">
+			<title>动态连接线</title>
+			<path d="M0 389.38 L107.98 389.38" class="st6"/>
+		</g>
+		<g id="shape23-47" v:mID="23" v:groupContext="shape" v:layerMember="0" transform="translate(78.3445,-318.123)">
+			<title>动态连接线.23</title>
+			<path d="M6.68 396.47 L7.04 396.47 L39.9 396.47 L39.9 648.37 L54.54 648.37 A2.3622 2.3622 0 0 1 59.27 648.37 L72.59 648.37
+						 A2.3622 2.3622 0 0 1 77.31 648.37 L115.23 648.37" class="st8"/>
+		</g>
+		<g id="shape24-53" v:mID="24" v:groupContext="shape" v:layerMember="0" transform="translate(78.3445,-292.044)">
+			<title>动态连接线.24</title>
+			<path d="M0 389.38 L37.54 389.38 A2.3622 2.3622 0 0 1 42.26 389.38 L90.26 389.38 A2.3622 2.3622 0 0 1 94.98 389.38 L108.05
+						 389.38" class="st6"/>
+		</g>
+		<g id="shape25-58" v:mID="25" v:groupContext="shape" v:layerMember="0" transform="translate(78.3445,-273.336)">
+			<title>动态连接线.25</title>
+			<path d="M0 389.38 L37.54 389.38 A2.3622 2.3622 0 1 1 42.26 389.38 L72.59 389.38 A2.3622 2.3622 0 0 1 77.31 389.38 L90.26
+						 389.38 A2.3622 2.3622 0 1 1 94.98 389.38 L108.42 389.38" class="st6"/>
+		</g>
+		<g id="shape26-63" v:mID="26" v:groupContext="shape" v:layerMember="0" transform="translate(98.3996,-280.422)">
+			<title>动态连接线.26</title>
+			<path d="M0 396.47 L17.48 396.47 A2.3622 2.3622 0 1 1 22.2 396.47 L36.85 396.47 L36.85 522.61 L52.54 522.61 A2.3622 2.3622
+						 0 1 1 57.26 522.61 L70.02 522.61 A2.3622 2.3622 0 1 1 74.74 522.61 L88.13 522.61" class="st6"/>
+		</g>
+		<g id="shape27-68" v:mID="27" v:groupContext="shape" v:layerMember="0" transform="translate(135.25,-155.981)">
+			<title>动态连接线.27</title>
+			<path d="M0 396.47 L0 526.58 L51.28 526.58" class="st6"/>
+		</g>
+		<g id="shape28-73" v:mID="28" v:groupContext="shape" v:layerMember="0" transform="translate(186.486,-317.745)">
+			<title>动态连接线.28</title>
+			<path d="M7.09 396.47 L-15.52 396.47 L-15.52 502.58 L0.05 502.58" class="st6"/>
+		</g>
+		<g id="shape31-78" v:mID="31" v:groupContext="shape" v:layerMember="0" transform="translate(153.297,-172.989)">
+			<title>动态连接线.31</title>
+			<path d="M0 396.47 L0 522.42 L33.24 522.42" class="st6"/>
+		</g>
+		<g id="shape32-83" v:mID="32" v:groupContext="shape" v:layerMember="0" transform="translate(186.486,-192.309)">
+			<title>动态连接线.32</title>
+			<path d="M7.09 396.47 L-15.71 396.47 L-15.71 503.66 L0.05 503.66" class="st6"/>
+		</g>
+		<g id="shape33-88" v:mID="33" v:groupContext="shape" v:layerMember="0" transform="translate(153.297,-299.131)">
+			<title>动态连接线.33</title>
+			<path d="M0 396.47 L0 522.61 L15.12 522.61 A2.3622 2.3622 0 0 1 19.84 522.61 L33.24 522.61" class="st6"/>
+		</g>
+	</g>
+</svg>
