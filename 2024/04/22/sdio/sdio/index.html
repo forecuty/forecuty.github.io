@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="en" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>SD | Fore</title><meta name="author" content="Fore,forecuty@outlook.com"><meta name="copyright" content="Fore"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="Abbreviation    Abbr Desc     SD Secure Digital   MMC Multi Media Card   eMMC embedded Multi Media Card   CMD Command   CLK Clock   DAT Data   CRC Cyclic Redundancy Code   CID Card Identification Regi">
+<!DOCTYPE html><html lang="en" data-theme="dark"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>SD | Fore</title><meta name="author" content="Fore,forecuty@outlook.com"><meta name="copyright" content="Fore"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#0d0d0d"><meta name="description" content="Abbreviation    Abbr Desc     SD Secure Digital   MMC Multi Media Card   eMMC embedded Multi Media Card   CMD Command   CLK Clock   DAT Data   CRC Cyclic Redundancy Code   CID Card Identification Regi">
 <meta property="og:type" content="article">
 <meta property="og:title" content="SD">
 <meta property="og:url" content="http://www.forecuty.com/2024/04/22/sdio/sdio/index.html">
@@ -7,27 +7,112 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://avatars.githubusercontent.com/u/39004468?s=400&u=fd45b1d0b37e6e3a67afae8da29319f562a26250&v=4">
 <meta property="article:published_time" content="2024-04-21T16:04:00.000Z">
-<meta property="article:modified_time" content="2024-04-21T16:26:03.310Z">
+<meta property="article:modified_time" content="2025-11-14T17:05:22.641Z">
 <meta property="article:author" content="Fore">
+<meta property="article:tag" content="Flash">
 <meta property="article:tag" content="SD">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://avatars.githubusercontent.com/u/39004468?s=400&u=fd45b1d0b37e6e3a67afae8da29319f562a26250&v=4"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://www.forecuty.com/2024/04/22/sdio/sdio/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+<meta name="twitter:image" content="https://avatars.githubusercontent.com/u/39004468?s=400&u=fd45b1d0b37e6e3a67afae8da29319f562a26250&v=4"><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "SD",
+  "url": "http://www.forecuty.com/2024/04/22/sdio/sdio/",
+  "image": "https://avatars.githubusercontent.com/u/39004468?s=400&u=fd45b1d0b37e6e3a67afae8da29319f562a26250&v=4",
+  "datePublished": "2024-04-21T16:04:00.000Z",
+  "dateModified": "2025-11-14T17:05:22.641Z",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Fore",
+      "url": "http://www.forecuty.com"
+    }
+  ]
+}</script><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://www.forecuty.com/2024/04/22/sdio/sdio/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="manifest" href="/null"/><link rel="icon" type="image/png" sizes="32x32" href="/images/fore_favicon-32x32.ico"/><link rel="icon" type="image/png" sizes="16x16" href="/images/fore_favicon-32x32.ico"/><link rel="stylesheet" href="/css/index.css?v=5.5.2"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.1.0/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
   root: '/',
   algolia: undefined,
   localSearch: undefined,
   translate: undefined,
-  noticeOutdate: undefined,
-  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
   copy: {
     success: 'Copy Successful',
-    error: 'Copy Error',
+    error: 'Copy Failed',
     noSupport: 'Browser Not Supported'
   },
   relativeDate: {
     homepage: false,
     post: false
   },
-  runtime: 'days',
+  runtime: '',
   dateSuffix: {
     just: 'Just now',
     min: 'minutes ago',
@@ -36,14 +121,14 @@
     month: 'months ago'
   },
   copyright: undefined,
-  lightbox: 'fancybox',
+  lightbox: 'null',
   Snackbar: undefined,
   infinitegrid: {
-    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid/dist/infinitegrid.min.js',
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.12.0/dist/infinitegrid.min.js',
     buttonText: 'Load More'
   },
-  isPhotoFigcaption: true,
-  islazyload: false,
+  isPhotoFigcaption: false,
+  islazyloadPlugin: false,
   isAnchor: false,
   percent: {
     toc: true,
@@ -52,108 +137,10 @@
   autoDarkmode: false
 }</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
   title: 'SD',
-  isPost: true,
-  isHome: false,
   isHighlightShrink: false,
   isToc: true,
-  postUpdate: '2024-04-22 00:26:03'
-}</script><script>(win=>{
-      win.saveToLocal = {
-        set: (key, value, ttl) => {
-          if (ttl === 0) return
-          const now = Date.now()
-          const expiry = now + ttl * 86400000
-          const item = {
-            value,
-            expiry
-          }
-          localStorage.setItem(key, JSON.stringify(item))
-        },
-      
-        get: key => {
-          const itemStr = localStorage.getItem(key)
-      
-          if (!itemStr) {
-            return undefined
-          }
-          const item = JSON.parse(itemStr)
-          const now = Date.now()
-      
-          if (now > item.expiry) {
-            localStorage.removeItem(key)
-            return undefined
-          }
-          return item.value
-        }
-      }
-    
-      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
-        const script = document.createElement('script')
-        script.src = url
-        script.async = true
-        script.onerror = reject
-        script.onload = script.onreadystatechange = function() {
-          const loadState = this.readyState
-          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
-          script.onload = script.onreadystatechange = null
-          resolve()
-        }
-
-        Object.keys(attr).forEach(key => {
-          script.setAttribute(key, attr[key])
-        })
-
-        document.head.appendChild(script)
-      })
-    
-      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
-        const link = document.createElement('link')
-        link.rel = 'stylesheet'
-        link.href = url
-        if (id) link.id = id
-        link.onerror = reject
-        link.onload = link.onreadystatechange = function() {
-          const loadState = this.readyState
-          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
-          link.onload = link.onreadystatechange = null
-          resolve()
-        }
-        document.head.appendChild(link)
-      })
-    
-      win.activateDarkMode = () => {
-        document.documentElement.setAttribute('data-theme', 'dark')
-        if (document.querySelector('meta[name="theme-color"]') !== null) {
-          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
-        }
-      }
-      win.activateLightMode = () => {
-        document.documentElement.setAttribute('data-theme', 'light')
-        if (document.querySelector('meta[name="theme-color"]') !== null) {
-          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
-        }
-      }
-      const t = saveToLocal.get('theme')
-    
-        if (t === 'dark') activateDarkMode()
-        else if (t === 'light') activateLightMode()
-      
-      const asideStatus = saveToLocal.get('aside-status')
-      if (asideStatus !== undefined) {
-        if (asideStatus === 'hide') {
-          document.documentElement.classList.add('hide-aside')
-        } else {
-          document.documentElement.classList.remove('hide-aside')
-        }
-      }
-    
-      const detectApple = () => {
-        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
-          document.documentElement.classList.add('apple')
-        }
-      }
-      detectApple()
-    })(window)</script><meta name="generator" content="Hexo 7.1.1"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://avatars.githubusercontent.com/u/39004468?s=400&amp;u=fd45b1d0b37e6e3a67afae8da29319f562a26250&amp;v=4" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">4</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">5</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">2</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><span> Home</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><span> Blog</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><span> Archives</span></a></li><li><a class="site-page child" href="/categories/"><span> Categories</span></a></li><li><a class="site-page child" href="/tags/"><span> Tags</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><span> Life</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/gallery/"><span> Gallery</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><span> Link</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header"><nav id="nav"><span id="blog-info"><a href="/" title="Fore"></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><span> Home</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><span> Blog</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><span> Archives</span></a></li><li><a class="site-page child" href="/categories/"><span> Categories</span></a></li><li><a class="site-page child" href="/tags/"><span> Tags</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><span> Life</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/gallery/"><span> Gallery</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><span> Link</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">SD</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">Created</span><time class="post-meta-date-created" datetime="2024-04-21T16:04:00.000Z" title="Created 2024-04-22 00:04:00">2024-04-22</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">Updated</span><time class="post-meta-date-updated" datetime="2024-04-21T16:26:03.310Z" title="Updated 2024-04-22 00:26:03">2024-04-22</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/Protocol/">Protocol</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="SD"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">Post Views:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h2 id="Abbreviation">Abbreviation</h2>
+  pageType: 'post'
+}</script><link rel="stylesheet" href="/css/custom.css"><meta name="generator" content="Hexo 8.1.1"></head><body><div id="web_bg" style="background-image: url(/images/background_fore_working.png);"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="https://avatars.githubusercontent.com/u/39004468?s=400&amp;u=fd45b1d0b37e6e3a67afae8da29319f562a26250&amp;v=4" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">6</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">8</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">3</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><span> Home</span></a></div><div class="menus_item"><span class="site-page group"><span> Blog</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><span> Archives</span></a></li><li><a class="site-page child" href="/categories/"><span> Categories</span></a></li><li><a class="site-page child" href="/tags/"><span> Tags</span></a></li></ul></div><div class="menus_item"><span class="site-page group"><span> Life</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/gallery/"><span> Gallery</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><span> Link</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="not-top-img fixed" id="page-header"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">Fore</span></a><a class="nav-page-title" href="/"><span class="site-name">SD</span><span class="site-name"><i class="fa-solid fa-circle-arrow-left"></i><span>  Back to Home</span></span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><span> Home</span></a></div><div class="menus_item"><span class="site-page group"><span> Blog</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><span> Archives</span></a></li><li><a class="site-page child" href="/categories/"><span> Categories</span></a></li><li><a class="site-page child" href="/tags/"><span> Tags</span></a></li></ul></div><div class="menus_item"><span class="site-page group"><span> Life</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/gallery/"><span> Gallery</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><span> Link</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav></header><main class="layout" id="content-inner"><div id="post"><div id="post-info"><h1 class="post-title">SD</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">Created</span><time class="post-meta-date-created" datetime="2024-04-21T16:04:00.000Z" title="Created 2024-04-22 00:04:00">2024-04-22</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">Updated</span><time class="post-meta-date-updated" datetime="2025-11-14T17:05:22.641Z" title="Updated 2025-11-15 01:05:22">2025-11-15</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/Protocols/">Protocols</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">Post Views:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div><article class="container post-content" id="article-container"><h2 id="Abbreviation">Abbreviation</h2>
 <table>
 <thead>
 <tr>
@@ -342,7 +329,7 @@
 </li>
 </ul>
 <p>SD卡在不同模式下的速度：</p>
-<p><img src="/2024/04/22/sdio/sdio/summary_of_bus_speed_mode.png" alt="summary of bus speed mode"></p>
+<p><img src="summary_of_bus_speed_mode.png" alt="summary of bus speed mode"></p>
 <h2 id="Bus-protocol">Bus protocol</h2>
 <h3 id="Command-Response-Data">Command &amp; Response &amp; Data</h3>
 <p>SD总线的通信是基于命令和数据流的。由一个起始位开始，由一个停止位终止。</p>
@@ -351,41 +338,41 @@
 <li>响应(Response)：响应是一个标记，从寻址的卡或者所有卡(同步)发送给主机，作为向前接收到的命令的回答。响应也是在<strong>CMD</strong>线上连续传输的。</li>
 <li>数据(Data)：数据可以从主机到卡，也可以从卡到主机。通过数据线传输。</li>
 </ul>
-<p><img src="/2024/04/22/sdio/sdio/no_response_and_no_data_operations.png" alt="no response and no data operations"></p>
+<p><img src="no_response_and_no_data_operations.png" alt="no response and no data operations"></p>
 <h4 id="Command">Command</h4>
-<p><img src="/2024/04/22/sdio/sdio/command_token_format.png" alt="command token format"></p>
-<p><img src="/2024/04/22/sdio/sdio/cmd0_example.png" alt="command0 example"></p>
+<p><img src="command_token_format.png" alt="command token format"></p>
+<p><img src="cmd0_example.png" alt="command0 example"></p>
 <blockquote>
 <p><strong>NOTE</strong>：Command和Response通过检查<strong>CRC7</strong>来保证其有效性，而Data是使用<strong>CRC16</strong>来校验数据</p>
 </blockquote>
 <h4 id="Response">Response</h4>
-<p><img src="/2024/04/22/sdio/sdio/response_token_format.png" alt="response token format"></p>
+<p><img src="response_token_format.png" alt="response token format"></p>
 <p>Response一共分为以下6种：</p>
 <ul>
 <li><code>R1</code>：返回卡的状态信息<br>
-<img src="/2024/04/22/sdio/sdio/r1.png" alt="R1"></li>
+<img src="r1.png" alt="R1"></li>
 <li><code>R1b</code>：相较于与<code>R1</code>响应增加了Busy信号
 <blockquote>
 <p><strong>Note</strong>：Busy信号在<strong>DAT0</strong>信号线上传输，Busy: 0, Idle: 1</p>
 </blockquote>
 </li>
 <li><code>R2</code>：返回<strong>CID</strong>或<strong>CSD</strong>寄存器的值。<strong>CID</strong>寄存器值，作为<code>CMD2</code>和<code>CMD10</code>响应；或<strong>CSD</strong>寄存器值，作为<code>CMD9</code>响应。注意只传输[127:1]位，第0位被结束位替代。<br>
-<img src="/2024/04/22/sdio/sdio/r2.png" alt="R2"></li>
+<img src="r2.png" alt="R2"></li>
 <li><code>R3</code>：返回<strong>OCR</strong>寄存器的值，此为<code>ACMD41</code>响应<br>
-<img src="/2024/04/22/sdio/sdio/r3.png" alt="R3"></li>
+<img src="r3.png" alt="R3"></li>
 <li><code>R6</code>：返回卡已发布的<strong>RCA</strong>地址<br>
-<img src="/2024/04/22/sdio/sdio/r6.png" alt="R6"></li>
+<img src="r6.png" alt="R6"></li>
 <li><code>R7</code>：返回卡接口状态，其中还包含<em>UHS-II</em>的<em>PCIe</em>相关的响应<br>
-<img src="/2024/04/22/sdio/sdio/r7.png" alt="R7"></li>
+<img src="r7.png" alt="R7"></li>
 </ul>
 <h4 id="Data">Data</h4>
 <p>数据在<strong>DAT</strong>线传输如下所示</p>
-<p><img src="/2024/04/22/sdio/sdio/data_packet_format_for_usual_data.png" alt="Data Packet Format for Usual Data"></p>
-<p><img src="/2024/04/22/sdio/sdio/data_packet_format_for_wide_width_data.png" alt="Data Packet Format for Wide Width Data"></p>
+<p><img src="data_packet_format_for_usual_data.png" alt="Data Packet Format for Usual Data"></p>
+<p><img src="data_packet_format_for_wide_width_data.png" alt="Data Packet Format for Wide Width Data"></p>
 <p>一般对于<em>UHS-I</em>的卡来说，<strong>DAT</strong>采样分为<strong>SDR</strong>模式和<strong>DDR</strong>模式。</p>
 <p>值得注意的是，对于<strong>DDR</strong>模式下的卡，其数据是双沿采样的，因此在相同频率下可以提供两倍于<strong>SDR</strong>模式的速度。</p>
-<p><img src="/2024/04/22/sdio/sdio/ddr50.png" alt="DDR50 Mode with Usual Data"></p>
-<p><img src="/2024/04/22/sdio/sdio/ddr50_wide_width_data.png" alt="DDR50 Mode with Wide Width Data"></p>
+<p><img src="ddr50.png" alt="DDR50 Mode with Usual Data"></p>
+<p><img src="ddr50_wide_width_data.png" alt="DDR50 Mode with Wide Width Data"></p>
 <h2 id="Registers">Registers</h2>
 <p>SD中定义了<strong>6</strong>个寄存器：<code>OCR</code>，<code>CID</code>，<code>CSD</code>，<code>RCA</code>，<code>DSR</code>，<code>SCR</code>，这些寄存器都可以通过相对应的命令进行访问。</p>
 <blockquote>
@@ -395,7 +382,7 @@
 <p>Operation Condition Register</p>
 <p>用于确认卡的操作条件，包括了电压范围、卡容量大小（访问单位）和卡的上电状态。</p>
 <p>访问命令：<code>ACMD41</code></p>
-<p><img src="/2024/04/22/sdio/sdio/ocr_reg.png" alt="OCR"></p>
+<p><img src="ocr_reg.png" alt="OCR"></p>
 <ul>
 <li>bit 7：双电压卡定义，接收到<code>CMD8</code>后会设置该位为1</li>
 <li>bit 15~23：卡的<em>VDD</em>支持的电压范围(<em>UHS-II</em>为<em>VDD1</em>)</li>
@@ -410,7 +397,7 @@
 <p>Card Identification Register</p>
 <p>用于确认卡ID信息。</p>
 <p>访问命令：<code>CMD2</code></p>
-<p><img src="/2024/04/22/sdio/sdio/cid_reg.png" alt="CID"></p>
+<p><img src="cid_reg.png" alt="CID"></p>
 <ul>
 <li><strong>MID</strong>：厂商的识别号，一个用于识别卡厂商的8-bit二进制数。由<em>SD-3C,LLC</em>控制、定义和分配给SD卡厂商，以保证唯一性。</li>
 <li><strong>OID</strong>：卡OEM和/或卡内容识别号（当ROM或FLASH卡被用作发布媒介时）的2字符的<em>ASCII</em>字符串。由<em>SD-3C,LLC</em>控制、定义和分配给SD卡厂家，以保证唯一性。</li>
@@ -423,11 +410,11 @@
 <h3 id="CSD">CSD</h3>
 <p>Card-Specific Data Register</p>
 <p>访问命令：<code>CMD9</code></p>
-<p><img src="/2024/04/22/sdio/sdio/csd_reg.png" alt="CSD"></p>
-<p><img src="/2024/04/22/sdio/sdio/csd_reg_v1.png" alt="CSD Version 1.0"><br>
-<img src="/2024/04/22/sdio/sdio/csd_reg_v2.png" alt="CSD Version 2.0"><br>
-<img src="/2024/04/22/sdio/sdio/csd_reg_v2_1.png" alt="CSD Version 2.0"><br>
-<img src="/2024/04/22/sdio/sdio/csd_reg_v3.png" alt="CSD Version 3.0"></p>
+<p><img src="csd_reg.png" alt="CSD"></p>
+<p><img src="csd_reg_v1.png" alt="CSD Version 1.0"><br>
+<img src="csd_reg_v2.png" alt="CSD Version 2.0"><br>
+<img src="csd_reg_v2_1.png" alt="CSD Version 2.0"><br>
+<img src="csd_reg_v3.png" alt="CSD Version 3.0"></p>
 <p>获取卡容量</p>
 <p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mtable rowspacing="0.25em" columnalign="right left" columnspacing="0em"><mtr><mtd><mstyle scriptlevel="0" displaystyle="true"><mrow><mi>M</mi><mi>e</mi><mi>m</mi><mi>o</mi><mi>r</mi><mi>y</mi><mtext> </mtext><mi>c</mi><mi>a</mi><mi>p</mi><mi>a</mi><mi>c</mi><mi>i</mi><mi>t</mi><mi>y</mi></mrow></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="true"><mrow><mrow></mrow><mo>=</mo><mi>B</mi><mi>L</mi><mi>O</mi><mi>C</mi><mi>K</mi><mi>N</mi><mi>R</mi><mo>∗</mo><mi>B</mi><mi>L</mi><mi>O</mi><mi>C</mi><mi>K</mi><mi mathvariant="normal">_</mi><mi>L</mi><mi>E</mi><mi>N</mi></mrow></mstyle></mtd></mtr><mtr><mtd><mstyle scriptlevel="0" displaystyle="true"><mrow><mi>B</mi><mi>L</mi><mi>O</mi><mi>C</mi><mi>K</mi><mi>N</mi><mi>R</mi></mrow></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="true"><mrow><mrow></mrow><mo>=</mo><mo stretchy="false">(</mo><mi>C</mi><mi mathvariant="normal">_</mi><mi>S</mi><mi>I</mi><mi>Z</mi><mi>E</mi><mo>+</mo><mn>1</mn><mo stretchy="false">)</mo><mo>∗</mo><mi>M</mi><mi>U</mi><mi>L</mi><mi>T</mi></mrow></mstyle></mtd></mtr><mtr><mtd><mstyle scriptlevel="0" displaystyle="true"><mrow><mi>M</mi><mi>U</mi><mi>L</mi><mi>T</mi></mrow></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="true"><mrow><mrow></mrow><mo>=</mo><msup><mn>2</mn><mrow><mi>C</mi><mi mathvariant="normal">_</mi><mi>S</mi><mi>I</mi><mi>Z</mi><mi>E</mi><mi mathvariant="normal">_</mi><mi>M</mi><mi>U</mi><mi>L</mi><mi>T</mi><mo>+</mo><mn>2</mn></mrow></msup><mo separator="true">,</mo><mi>C</mi><mi mathvariant="normal">_</mi><mi>S</mi><mi>I</mi><mi>Z</mi><mi>E</mi><mi mathvariant="normal">_</mi><mi>M</mi><mi>U</mi><mi>L</mi><mi>T</mi><mo>&lt;</mo><mn>8</mn></mrow></mstyle></mtd></mtr><mtr><mtd><mstyle scriptlevel="0" displaystyle="true"><mrow><mi>B</mi><mi>L</mi><mi>O</mi><mi>C</mi><mi>K</mi><mi mathvariant="normal">_</mi><mi>L</mi><mi>E</mi><mi>N</mi></mrow></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="true"><mrow><mrow></mrow><mo>=</mo><msup><mn>2</mn><mrow><mi>R</mi><mi>E</mi><mi>A</mi><mi>D</mi><mi mathvariant="normal">_</mi><mi>B</mi><mi>L</mi><mi mathvariant="normal">_</mi><mi>L</mi><mi>E</mi><mi>N</mi></mrow></msup><mo separator="true">,</mo><mi>R</mi><mi>E</mi><mi>A</mi><mi>D</mi><mi mathvariant="normal">_</mi><mi>B</mi><mi>L</mi><mi mathvariant="normal">_</mi><mi>L</mi><mi>E</mi><mi>N</mi><mo>&lt;</mo><mn>12</mn></mrow></mstyle></mtd></mtr></mtable><annotation encoding="application/x-tex">\begin{aligned}
 Memory\ capacity &amp;= BLOCKNR * BLOCK\_LEN\\
@@ -451,17 +438,17 @@ BLOCK\_LEN &amp;= 2^{READ\_BL\_LEN}, READ\_BL\_LEN &lt; 12
 <li><strong>SD_BUS_WIDTHS</strong>: SD卡总线宽度</li>
 </ul>
 <p><code>CMD3</code></p>
-<p><img src="/2024/04/22/sdio/sdio/scr_reg.png" alt="SCR"></p>
+<p><img src="scr_reg.png" alt="SCR"></p>
 <h2 id="Physical">Physical</h2>
 <p>常见的多卡连接主机拓扑，如下图所示：</p>
-<p><img src="/2024/04/22/sdio/sdio/system_bus_topology.png" alt="SD Memory Card System Bus Topology"></p>
+<p><img src="system_bus_topology.png" alt="SD Memory Card System Bus Topology"></p>
 <p>其中标准SD卡的接口一般定义如下：</p>
-<p><img src="/2024/04/22/sdio/sdio/card_shape_n_interface.png" alt="Card Shape and Interface"></p>
-<p><img src="/2024/04/22/sdio/sdio/card_pad_assignment.png" alt="Card Pad Assignment"></p>
+<p><img src="card_shape_n_interface.png" alt="Card Shape and Interface"></p>
+<p><img src="card_pad_assignment.png" alt="Card Pad Assignment"></p>
 <h3 id="Card-Detect">Card Detect</h3>
 <p>一般使用<strong>DAT3</strong>引脚作为卡检测的输出引脚，该引脚在SD卡内部做了<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>50</mn><mi>K</mi><mi mathvariant="normal">Ω</mi></mrow><annotation encoding="application/x-tex">50K\Omega</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">50</span><span class="mord mathnormal" style="margin-right:0.07153em;">K</span><span class="mord">Ω</span></span></span></span>的上拉电阻，所以当卡插入并上电后，该引脚电平会被拉高，主机可以检测该引脚电平来确定卡的插入状态。</p>
 <p>同时主机可以通过使用<code>ACMD42</code>命令<strong>SET_CLR_CARD_DETECT</strong>取消卡选择来将该<strong>DAT3</strong>拉低。</p>
-<p><img src="/2024/04/22/sdio/sdio/acmd42.png" alt="ACMD42"></p>
+<p><img src="acmd42.png" alt="ACMD42"></p>
 <blockquote>
 <p><strong>NOTE</strong>：<strong>DAT3</strong>引脚还具有模式选择的功能，当主机在上电时主动将其拉低时，SD卡将进入<em>SPI</em>模式</p>
 </blockquote>
@@ -472,7 +459,7 @@ BLOCK\_LEN &amp;= 2^{READ\_BL\_LEN}, READ\_BL\_LEN &lt; 12
 <li>低电平为保护状态</li>
 </ul>
 <h2 id="State-machine">State machine</h2>
-<p><img src="/2024/04/22/sdio/sdio/card_states_n_operation_modes.png" alt="Card States and Operation Modes"></p>
+<p><img src="card_states_n_operation_modes.png" alt="Card States and Operation Modes"></p>
 <h3 id="Inactive-mode"><em>Inactive mode</em></h3>
 <ul>
 <li>
@@ -490,7 +477,7 @@ BLOCK\_LEN &amp;= 2^{READ\_BL\_LEN}, READ\_BL\_LEN &lt; 12
 <blockquote>
 <p><strong>NOTE</strong>：时钟频率为0表示时钟已停止</p>
 </blockquote>
-<p><img src="/2024/04/22/sdio/sdio/sd_memory_card_state_diagram_card_identification_mode.png" alt="SD card identification state diagram"></p>
+<p><img src="sd_memory_card_state_diagram_card_identification_mode.png" alt="SD card identification state diagram"></p>
 <h4 id="Card-reset">Card reset</h4>
 <ul>
 <li>
@@ -498,7 +485,7 @@ BLOCK\_LEN &amp;= 2^{READ\_BL\_LEN}, READ\_BL\_LEN &lt; 12
 </li>
 <li>
 <p>软复位命令：<strong>GO_IDLE_STATE</strong>（<code>CMD0</code>），可以将任意卡设置为<em>Idle State</em>（<em>Inactive State</em>的卡除外）。</p>
-<p><img src="/2024/04/22/sdio/sdio/cmd0.png" alt="CMD0"></p>
+<p><img src="cmd0.png" alt="CMD0"></p>
 </li>
 </ul>
 <p><em>Idle State</em>的卡<strong>CMD</strong>线处于输入模式，等待下一个命令的起始位。</p>
@@ -515,18 +502,18 @@ BLOCK\_LEN &amp;= 2^{READ\_BL\_LEN}, READ\_BL\_LEN &lt; 12
 <li>如果卡能够在支持电压下操作，响应会传回命令参数里设置的支持的电压和检测模式。</li>
 <li>如果卡不能在支持电压下操作，就不会发送响应，并保持在<em>Idle State</em>。</li>
 </ul>
-<p><img src="/2024/04/22/sdio/sdio/cmd8.png" alt="CMD8"></p>
-<p><img src="/2024/04/22/sdio/sdio/format_of_cmd8.png" alt="format of cmd8"></p>
+<p><img src="cmd8.png" alt="CMD8"></p>
+<p><img src="format_of_cmd8.png" alt="format of cmd8"></p>
 <blockquote>
 <p><strong>Note</strong>：<code>CMD8</code>是<strong>V2.0</strong>中定义的新命令，此版本之前的SD卡不支持该命令，因此使用此命令区分<strong>V2.0</strong>之前的卡。</p>
 </blockquote>
 <p><strong>强制要求</strong>：在发送第一个<code>ACMD41</code>之前要先发送<code>CMD8</code>，以便初始化<em>SDHC</em>，<em>SDXC</em>或<em>SDUC</em>卡。<em>SD</em>卡如果收到<code>CMD8</code>，就会知道主机支持<strong>V2.0</strong>或更高版本，就可以启用新功能。同样强制的，低电主机在发送<code>ACMD41</code>之前，也要发送<code>CMD8</code>。如果双电压卡没有收到<code>CMD8</code>，那么卡就会<strong>作为高电压卡来工作</strong>，并且如果低电主机不发送<code>CMD8</code>的话，卡在收到<code>ACMD41</code>命令（设置电压范围为低电压）后会进入<em>Inactive State</em>。</p>
 <h5 id="Send-Operation-Condition-Command">Send Operation Condition Command</h5>
-<p><img src="/2024/04/22/sdio/sdio/card_initialization_and_identification_flow_sd_mode.png" alt="Card Initialization and Identification Flow"></p>
+<p><img src="card_initialization_and_identification_flow_sd_mode.png" alt="Card Initialization and Identification Flow"></p>
 <p><code>ACMD41</code>是用来提供给主机一种机制来识别和拒绝那些不匹配它期望的电压范围的卡。主机通过发送<code>ACMD41</code>命令来查询每张卡信息，并确定出通用的电压范围（<strong>OCR</strong>寄存器定义了其电压范围）。之后，主机重新发送<code>ACMD41</code>并选择该通用工作电压参数，这样可以让不兼容的卡进入<em>Inactive State</em>，并以此开始卡的初始化流程。</p>
-<p><img src="/2024/04/22/sdio/sdio/acmd41.png" alt="ACMD41"><br>
-<img src="/2024/04/22/sdio/sdio/acmd41_arg.png" alt="ACMD41 Argument"><br>
-<img src="/2024/04/22/sdio/sdio/acmd41_resp.png" alt="ACMD41 Response"></p>
+<p><img src="acmd41.png" alt="ACMD41"><br>
+<img src="acmd41_arg.png" alt="ACMD41 Argument"><br>
+<img src="acmd41_resp.png" alt="ACMD41 Response"></p>
 <blockquote>
 <p><strong>Note</strong>：</p>
 <ol>
@@ -535,10 +522,10 @@ BLOCK\_LEN &amp;= 2^{READ\_BL\_LEN}, READ\_BL\_LEN &lt; 12
 </ol>
 </blockquote>
 <h4 id="Bus-Signal-Voltage-Switch">Bus Signal Voltage Switch</h4>
-<p><img src="/2024/04/22/sdio/sdio/voltage_switch_sequence.png" alt="Voltage Switch Sequence"></p>
-<p><img src="/2024/04/22/sdio/sdio/signal_voltage_switch_sequence.png" alt="Signal Voltage Switch Sequence"></p>
+<p><img src="voltage_switch_sequence.png" alt="Voltage Switch Sequence"></p>
+<p><img src="signal_voltage_switch_sequence.png" alt="Signal Voltage Switch Sequence"></p>
 <p>当卡发出<code>CMD11</code>: <strong>VOLTAGE_SWITCH</strong>的响应后，会立即将<strong>CMD</strong>线和<strong>DAT</strong>线拉低（主机若没有检测到该低电平，将停止电压切换），主机停止时钟供应，此时卡开始进行电压切换，等待至少5ms后，主机重新开始输出1.8V时钟，并在输出时钟的至少1ms后检查DAT线确认电压是否切换成功。卡检测到1.8V的时钟后，将<strong>CMD</strong>线拉高并停止三态，若检测到CMD电压成功切换，此时卡再将DAT线拉高，最后主机检查<strong>DAT</strong>线为高确认卡电压切换成功。</p>
-<p><img src="/2024/04/22/sdio/sdio/cmd11.png" alt="CMD11"></p>
+<p><img src="cmd11.png" alt="CMD11"></p>
 <blockquote>
 <p><strong>NOTE</strong>：</p>
 <ol>
@@ -547,23 +534,23 @@ BLOCK\_LEN &amp;= 2^{READ\_BL\_LEN}, READ\_BL\_LEN &lt; 12
 </ol>
 </blockquote>
 <p>电压切换功能依赖于外部PCB的电路实现，下面是一款<em>NXP Semiconductors</em>的一款电压转换芯片<em>NVT4857UK</em>的参考电压切换应用框图：</p>
-<p><img src="/2024/04/22/sdio/sdio/nvt4857uk.png" alt="NVT4857UK"></p>
+<p><img src="nvt4857uk.png" alt="NVT4857UK"></p>
 <h4 id="Identification-State-Stand-by-State">Identification State &amp; Stand-by State</h4>
 <ul>
 <li>
 <p><code>CMD2</code>: <strong>ALL_SEND_CID</strong>，获取卡<strong>CID</strong>命令。处于<em>Ready State</em>的卡会回复<strong>CID</strong>作为该命令的响应，回复完成后卡将进入<em>Identification State</em>。</p>
-<p><img src="/2024/04/22/sdio/sdio/cmd2.png" alt="CMD2"></p>
+<p><img src="cmd2.png" alt="CMD2"></p>
 </li>
 <li>
 <p><code>CMD3</code>: <strong>SEND_RELATIVE_ADDR</strong>，通知卡发布一个新的相对地址（<strong>RCA</strong>），此地址用作数据传输模式下的卡地址。一旦收到<strong>RCA</strong>，卡就会变为<em>Stand-by State</em>。这时，如果主机想要分配另一个<strong>RCA</strong> ，它可以再发送一个<code>CMD3</code>，通知卡重新发布一个<strong>RCA</strong> 。最后一个产生的<strong>RCA</strong>才是有效的。</p>
-<p><img src="/2024/04/22/sdio/sdio/cmd3.png" alt="CMD3"></p>
+<p><img src="cmd3.png" alt="CMD3"></p>
 </li>
 </ul>
 <p>主机会重复识别进程，为系统中的每个卡循环发送<code>CMD2</code>和<code>CMD3</code></p>
 <h3 id="Data-Transfer-Mode">Data Transfer Mode</h3>
-<p><img src="/2024/04/22/sdio/sdio/sd_memory_card_state_diagram_data_transfer_mode.png" alt="Data Transfer Mode"></p>
+<p><img src="sd_memory_card_state_diagram_data_transfer_mode.png" alt="Data Transfer Mode"></p>
 <p><code>CMD7</code>: <strong>SELECT/DESELECT_CARD</strong>，命令在<em>Stand-by State</em>和<em>Transfer State</em>之间，或<em>Programming State</em>和<em>Disconnect State</em>之间进行状态切换。在这两种情况下，卡检查<strong>RCA</strong>地址，若地址相匹配，则该卡被选中，不匹配则被取消选中。</p>
-<p><img src="/2024/04/22/sdio/sdio/cmd7.png" alt="CMD7"></p>
+<p><img src="cmd7.png" alt="CMD7"></p>
 <blockquote>
 <p><strong>NOTE</strong>：使用Address <strong>0</strong>可以取消所有卡的选中。<br>
 当RCA等于0的情况下，主机可以执行以下操作之一：</p>
@@ -574,7 +561,7 @@ BLOCK\_LEN &amp;= 2^{READ\_BL\_LEN}, READ\_BL\_LEN &lt; 12
 </blockquote>
 <h4 id="Card-Lock-Unlock-Operation">Card Lock/Unlock Operation</h4>
 <p>如果卡被锁了，使用<code>CMD42</code>: <strong>LOCK_UNLOCK</strong>进行解锁操作（1-bit width, mandatory from version 2.00）</p>
-<p><img src="/2024/04/22/sdio/sdio/cmd42.png" alt="CMD42"></p>
+<p><img src="cmd42.png" alt="CMD42"></p>
 <p>解锁操作需要输入对应的密码，</p>
 <ul>
 <li>密码正确，则该卡锁定的状态位将清零</li>
@@ -585,7 +572,7 @@ BLOCK\_LEN &amp;= 2^{READ\_BL\_LEN}, READ\_BL\_LEN &lt; 12
 </blockquote>
 <h4 id="Wide-Bus-Selection-Deselection">Wide Bus Selection/Deselection</h4>
 <p>可以使用<code>ACMD6</code>: <strong>SET_BUS_WIDTH</strong>，配置数据总线宽度。卡上电或软复位命令<code>CMD0</code>为将配置总线宽度为1bit。</p>
-<p><img src="/2024/04/22/sdio/sdio/acmd6.png" alt="ACMD6"></p>
+<p><img src="acmd6.png" alt="ACMD6"></p>
 <p>使用<code>ACMD6</code>，应该满足以下两个条件：</p>
 <ul>
 <li>卡处于<em>Transfer State</em></li>
@@ -593,11 +580,11 @@ BLOCK\_LEN &amp;= 2^{READ\_BL\_LEN}, READ\_BL\_LEN &lt; 12
 </ul>
 <blockquote>
 <p><strong>NOTE</strong>：若卡被锁，那么主机发送的<code>ACMD6</code>命令会被卡拒绝。同时主机若需要发送<code>CMD42</code>的数据时，则需要根据当前线宽模式发送数据。<br>
-<img src="/2024/04/22/sdio/sdio/acmd6_lock_unlock.png" alt="ACMD6 and Lock/Unlock State"></p>
+<img src="acmd6_lock_unlock.png" alt="ACMD6 and Lock/Unlock State"></p>
 </blockquote>
 <h4 id="Switch-Function">Switch Function</h4>
 <p><code>CMD6</code>: <strong>SWITCH_FUNC</strong>，用于切换或扩展存储卡功能。</p>
-<p><img src="/2024/04/22/sdio/sdio/cmd6.png" alt="CMD6"></p>
+<p><img src="cmd6.png" alt="CMD6"></p>
 <p><code>CMD6</code>有两种模式：</p>
 <ul>
 <li>Mode 0：Check Function，用于查询SD卡所支持的Function</li>
@@ -610,7 +597,7 @@ BLOCK\_LEN &amp;= 2^{READ\_BL\_LEN}, READ\_BL\_LEN &lt; 12
 <li>Driver Strength：在UHS-I模式下选择合适的输出驱动强度，取决于主机环境</li>
 <li>Power Limit：选择限制最大功率，取决于主机的电源供应能力和散热能力。因为考虑到UHS-II板卡上的两个电源电压，修改原描述Current Limit。</li>
 </ul>
-<p><img src="/2024/04/22/sdio/sdio/cmd6_functions.png" alt="CMD6"></p>
+<p><img src="cmd6_functions.png" alt="CMD6"></p>
 <h4 id="Tuning">Tuning</h4>
 <ul>
 <li>在TX方向发送时，时钟和数据方向一致，因此不需要关心延时
@@ -620,26 +607,26 @@ BLOCK\_LEN &amp;= 2^{READ\_BL\_LEN}, READ\_BL\_LEN &lt; 12
 </li>
 <li>在RX方向接收时，时钟和数据方向相反，<strong>DAT</strong>数据有往返的时延(Round-trip delay)，因此需要在接收的采样时钟上增加延时，调整数据采样点</li>
 </ul>
-<p><img src="/2024/04/22/sdio/sdio/internal_clock_delay.png" alt="Delayed internal clock method"></p>
+<p><img src="internal_clock_delay.png" alt="Delayed internal clock method"></p>
 <p><code>CMD19</code>：<strong>Send Tuning Block</strong>，使用一个已知的预定义数据块（Tuning Block）来调整采样点，以调整所需的主机。采样点的调整能力对于<em>HOST-SDR-VD</em>是强制性的，而对于<em>HOST-SDR-FD</em>则是可选的。该命令为每个特定的主机和卡提供了系统的最佳时间，并补偿了时序中的静态延迟，包括工艺、电压和不同的PCB负载和偏差。</p>
-<p><img src="/2024/04/22/sdio/sdio/cmd19.png" alt="CMD19"></p>
-<p><img src="/2024/04/22/sdio/sdio/tuning_block.png" alt="Tuning Block"></p>
-<p><img src="/2024/04/22/sdio/sdio/tuning_block_on_data.png" alt="Tuning Block on Data"></p>
+<p><img src="cmd19.png" alt="CMD19"></p>
+<p><img src="tuning_block.png" alt="Tuning Block"></p>
+<p><img src="tuning_block_on_data.png" alt="Tuning Block on Data"></p>
 <p>调优过程中，要求在<strong>150ms</strong>的时间内完成<strong>40</strong>次<code>CMD19</code>的执行序列，在此期间不能有其它命令发送</p>
 <blockquote>
 <p><strong>NOTE</strong>：总线时钟可以随时改变，但是改变的范围限定在由标准规定的当前传输阶段的最大时钟范围内。</p>
 </blockquote>
 <h4 id="Erase-operation">Erase operation</h4>
 <p>使用多块擦除命令可以提高数据的吞吐量。使用<code>CMD32</code>命令<strong>ERASE_WR_BLK_START</strong>和<code>CMD33</code>命令<strong>ERASE_WR_BLK_END</strong>，可以配置擦除的起始块和结束块，使用<code>CMD38</code>命令<strong>ERASE</strong>执行实际的擦除指令。擦除完后实际颗粒数据是0还是1，取决于<strong>SCR</strong>寄存器的<strong>DAT_STAT_AFTER_ERASE</strong>（只读）位域。</p>
-<p><img src="/2024/04/22/sdio/sdio/cmd32.png" alt="CMD32"><br>
-<img src="/2024/04/22/sdio/sdio/cmd33.png" alt="CMD33"><br>
-<img src="/2024/04/22/sdio/sdio/cmd38.png" alt="CMD38"></p>
+<p><img src="cmd32.png" alt="CMD32"><br>
+<img src="cmd33.png" alt="CMD33"><br>
+<img src="cmd38.png" alt="CMD38"></p>
 <blockquote>
 <p><strong>NOTE</strong>：如果擦除范围包含了保护区内容，则保护区内容不会动，只擦除非保护区的部分，且此时状态寄存器的<strong>WP_ERASE_SKIP</strong>位被置起</p>
 </blockquote>
 <p>预擦除功能：</p>
 <p>使用<code>ACMD23</code>命令<strong>SET_WR_BLK_ERASE_COUNT</strong>，可以在写之前配置可以提高多块写的速度，这是因为主机通常会使用这个命令来定义下一个要写的数据块的数目。如果主机要发送比<code>ACMD23</code>配置的更多的数据量，则卡会收到一个块擦除一个块然后再写下这个块</p>
-<p><img src="/2024/04/22/sdio/sdio/acmd23.png" alt="ACMD23"></p>
+<p><img src="acmd23.png" alt="ACMD23"></p>
 <h4 id="Read-operation">Read operation</h4>
 <p>数据读取一般有两种方式：</p>
 <ul>
@@ -647,43 +634,43 @@ BLOCK\_LEN &amp;= 2^{READ\_BL\_LEN}, READ\_BL\_LEN &lt; 12
 <li>对于<strong>V2.0</strong>及以上的高容量卡，采用按块读取的方式</li>
 </ul>
 <p>Block read：是以Block为单位的数据传输，块长度由<code>CMD16</code>命令<strong>SET_BLOCKLEN</strong>设置（此长度不管<strong>CSD</strong>寄存器定义的<strong>READ_BL_LEN</strong>（只读）的值是多少），其最大传输大小为<strong>512Bytes</strong>（若块大小配置大于512Bytes，则卡状态寄存器<strong>BLOCK_LEN_ERROR</strong>位将置起），有单块和多块传输。<br>
-<img src="/2024/04/22/sdio/sdio/cmd16.png" alt="CMD16"></p>
+<img src="cmd16.png" alt="CMD16"></p>
 <blockquote>
 <p><strong>NOTE</strong>：由于<em>DDR</em>模式是双沿采样，因此在此模式下块长度需要配置为偶数</p>
 </blockquote>
-<p><img src="/2024/04/22/sdio/sdio/block_read_operation.png" alt="Multiple blocks read operation"></p>
+<p><img src="block_read_operation.png" alt="Multiple blocks read operation"></p>
 <ul>
 <li>
 <p><code>CMD17</code>: <strong>READ_SINGLE_BLOCK</strong>，代表读取一个块的内容，传输结束后，回到<em>Transfer state</em>。</p>
-<p><img src="/2024/04/22/sdio/sdio/cmd17.png" alt="CMD17"></p>
+<p><img src="cmd17.png" alt="CMD17"></p>
 </li>
 <li>
 <p><code>CMD18</code>: <strong>READ_MULTIPLE_BLOCK</strong>，代表读取多个连续的块。块会一直连续传输直到<code>CMD12</code>（<strong>STOP_TRANSMISSION</strong>）命令发出。因为连续数据传输，停止命令会有些执行延迟。数据传输会在停止命令的结束位发送之后停止。</p>
-<p><img src="/2024/04/22/sdio/sdio/cmd18.png" alt="CMD18"><br>
-<img src="/2024/04/22/sdio/sdio/cmd12.png" alt="CMD12"></p>
+<p><img src="cmd18.png" alt="CMD18"><br>
+<img src="cmd12.png" alt="CMD12"></p>
 <blockquote>
 <p><strong>NOTE</strong>：<code>CMD23</code>命令<strong>SET_BLOCK_COUNT</strong>，可以配置<code>CMD18</code>所读取的长度<br>
-<img src="/2024/04/22/sdio/sdio/cmd23.png" alt="CMD23"></p>
+<img src="cmd23.png" alt="CMD23"></p>
 </blockquote>
 </li>
 </ul>
 <p>如果主机使用部分块的累计长度不能对齐，而该卡又不允许不对齐，则卡应该在第一个不对齐的块开始传输的时候就检测到这个问题，然后设置<strong>ADDRESS_ERROR</strong>错误位到卡状态寄存器，并停止传输，此时卡回到<em>Transfer State</em>等待主机发送停止命令。</p>
-<p><img src="/2024/04/22/sdio/sdio/read_command_blocklen.png" alt="Read Command Blocklen"></p>
+<p><img src="read_command_blocklen.png" alt="Read Command Blocklen"></p>
 <h4 id="Write-operation">Write operation</h4>
-<p><img src="/2024/04/22/sdio/sdio/block_write_operation.png" alt="multiple block write operation"></p>
+<p><img src="block_write_operation.png" alt="multiple block write operation"></p>
 <p>单块写和多块写：</p>
 <ul>
 <li>
 <p><code>CMD24</code>：<strong>WRITE_BLOCK</strong>，写单块数据</p>
-<p><img src="/2024/04/22/sdio/sdio/cmd24.png" alt="CMD24"></p>
+<p><img src="cmd24.png" alt="CMD24"></p>
 </li>
 <li>
 <p><code>CMD25</code>：<strong>WRITE_MULTIPLE_BLOCK</strong>，写多块数据</p>
-<p><img src="/2024/04/22/sdio/sdio/cmd25.png" alt="CMD25"></p>
+<p><img src="cmd25.png" alt="CMD25"></p>
 </li>
 </ul>
 <p>当部分块访问关闭，即<strong>CSD</strong>寄存器的<strong>WRITE_BL_PARTIAL</strong>（只读）为0时，卡只能按512Bytes的块写：</p>
-<p><img src="/2024/04/22/sdio/sdio/write_command_blocklen.png" alt="Write Command Blocklen"></p>
+<p><img src="write_command_blocklen.png" alt="Write Command Blocklen"></p>
 <p>而当<strong>WRITE_BL_PARTIAL</strong>为1时，此时1~512Bytes均可以使用。</p>
 <p>同样地，对于不支持不对齐写操作的卡，在检测到错误后，卡会停止写入数据，回到<em>Transfer State</em>，并设置<strong>ADDRESS_ERROR</strong>错误位到状态寄存器。</p>
 <h2 id="References">References</h2>
@@ -692,4 +679,4 @@ BLOCK\_LEN &amp;= 2^{READ\_BL\_LEN}, READ\_BL\_LEN &lt; 12
 [2] SD Card Association. SD Specifications Part 1 Physical Layer Specification Version 9.00[S]. 2022,8,22.<br>
 [3] NXP Semiconductors. NVT4857UK SD 3.0-SDR104 compliant integrated auto-direction control[S]. 2023,7,19.</p>
 </blockquote>
-</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>Author: </span><span class="post-copyright-info"><a href="http://www.forecuty.com">Fore</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>Link: </span><span class="post-copyright-info"><a href="http://www.forecuty.com/2024/04/22/sdio/sdio/">http://www.forecuty.com/2024/04/22/sdio/sdio/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>Copyright Notice: </span><span class="post-copyright-info">All articles in this blog are licensed under <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> unless stating additionally.</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/SD/">SD</a></div><div class="post_share"><div class="social-share" data-image="https://avatars.githubusercontent.com/u/39004468?s=400&amp;u=fd45b1d0b37e6e3a67afae8da29319f562a26250&amp;v=4" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="next-post pull-full"><a href="/2023/03/28/aes/aes/" title="AES"><div class="cover" style="background: var(--default-bg-color)"></div><div class="pagination-info"><div class="label">Next</div><div class="next_info">AES</div></div></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://avatars.githubusercontent.com/u/39004468?s=400&amp;u=fd45b1d0b37e6e3a67afae8da29319f562a26250&amp;v=4" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">Fore</div><div class="author-info__description"></div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">4</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">5</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">2</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/forecuty"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>Contents</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Abbreviation"><span class="toc-number">1.</span> <span class="toc-text">Abbreviation</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Classification"><span class="toc-number">2.</span> <span class="toc-text">Classification</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#SD-card"><span class="toc-number">2.1.</span> <span class="toc-text">SD card</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Bus-protocol"><span class="toc-number">3.</span> <span class="toc-text">Bus protocol</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Command-Response-Data"><span class="toc-number">3.1.</span> <span class="toc-text">Command &amp; Response &amp; Data</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#Command"><span class="toc-number">3.1.1.</span> <span class="toc-text">Command</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Response"><span class="toc-number">3.1.2.</span> <span class="toc-text">Response</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Data"><span class="toc-number">3.1.3.</span> <span class="toc-text">Data</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Registers"><span class="toc-number">4.</span> <span class="toc-text">Registers</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#OCR"><span class="toc-number">4.1.</span> <span class="toc-text">OCR</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#CID"><span class="toc-number">4.2.</span> <span class="toc-text">CID</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#CSD"><span class="toc-number">4.3.</span> <span class="toc-text">CSD</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#RCA"><span class="toc-number">4.4.</span> <span class="toc-text">RCA</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#DSR"><span class="toc-number">4.5.</span> <span class="toc-text">DSR</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#SCR"><span class="toc-number">4.6.</span> <span class="toc-text">SCR</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Physical"><span class="toc-number">5.</span> <span class="toc-text">Physical</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Card-Detect"><span class="toc-number">5.1.</span> <span class="toc-text">Card Detect</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Write-Protect"><span class="toc-number">5.2.</span> <span class="toc-text">Write Protect</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#State-machine"><span class="toc-number">6.</span> <span class="toc-text">State machine</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Inactive-mode"><span class="toc-number">6.1.</span> <span class="toc-text">Inactive mode</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Card-Identification-Mode"><span class="toc-number">6.2.</span> <span class="toc-text">Card Identification Mode</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#Card-reset"><span class="toc-number">6.2.1.</span> <span class="toc-text">Card reset</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Condition-validation"><span class="toc-number">6.2.2.</span> <span class="toc-text">Condition validation</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#Send-Interface-Condition-Command"><span class="toc-number">6.2.2.1.</span> <span class="toc-text">Send Interface Condition Command</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#Send-Operation-Condition-Command"><span class="toc-number">6.2.2.2.</span> <span class="toc-text">Send Operation Condition Command</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Bus-Signal-Voltage-Switch"><span class="toc-number">6.2.3.</span> <span class="toc-text">Bus Signal Voltage Switch</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Identification-State-Stand-by-State"><span class="toc-number">6.2.4.</span> <span class="toc-text">Identification State &amp; Stand-by State</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Data-Transfer-Mode"><span class="toc-number">6.3.</span> <span class="toc-text">Data Transfer Mode</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#Card-Lock-Unlock-Operation"><span class="toc-number">6.3.1.</span> <span class="toc-text">Card Lock&#x2F;Unlock Operation</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Wide-Bus-Selection-Deselection"><span class="toc-number">6.3.2.</span> <span class="toc-text">Wide Bus Selection&#x2F;Deselection</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Switch-Function"><span class="toc-number">6.3.3.</span> <span class="toc-text">Switch Function</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Tuning"><span class="toc-number">6.3.4.</span> <span class="toc-text">Tuning</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Erase-operation"><span class="toc-number">6.3.5.</span> <span class="toc-text">Erase operation</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Read-operation"><span class="toc-number">6.3.6.</span> <span class="toc-text">Read operation</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Write-operation"><span class="toc-number">6.3.7.</span> <span class="toc-text">Write operation</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#References"><span class="toc-number">7.</span> <span class="toc-text">References</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>Recent Post</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/04/22/sdio/sdio/" title="SD">SD</a><time datetime="2024-04-21T16:04:00.000Z" title="Created 2024-04-22 00:04:00">2024-04-22</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/03/28/aes/aes/" title="AES">AES</a><time datetime="2023-03-28T15:49:00.000Z" title="Created 2023-03-28 23:49:00">2023-03-28</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/03/12/spi/spi/" title="SPI">SPI</a><time datetime="2023-03-11T16:00:45.000Z" title="Created 2023-03-12 00:00:45">2023-03-12</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/02/24/i2c/i2c/" title="I2C">I2C</a><time datetime="2023-02-24T11:55:40.000Z" title="Created 2023-02-24 19:55:40">2023-02-24</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2023 - 2024 By Fore</div><div class="framework-info"><span>Framework </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>Theme </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div class="footer_custom_text">(。・∀・)ノ</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="Read Mode"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="Toggle Between Light And Dark Mode"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="Toggle between Single-column and Double-column"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="Setting"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="Table Of Contents"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="Back To Top"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>Author: </span><span class="post-copyright-info"><a href="http://www.forecuty.com">Fore</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>Link: </span><span class="post-copyright-info"><a href="http://www.forecuty.com/2024/04/22/sdio/sdio/">http://www.forecuty.com/2024/04/22/sdio/sdio/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>Copyright Notice: </span><span class="post-copyright-info">All articles on this blog are licensed under <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> unless otherwise stated.</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/SD/">SD</a><a class="post-meta__tags" href="/tags/Flash/">Flash</a></div><div class="post-share"><div class="social-share" data-image="https://avatars.githubusercontent.com/u/39004468?s=400&amp;u=fd45b1d0b37e6e3a67afae8da29319f562a26250&amp;v=4" data-sites="facebook,x,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><a class="pagination-related" href="/2025/11/14/cranberry_cookies/cranberry_cookies/" title="Cranberry cookies"><img class="cover" src="/images/cover_cranberry_cookies.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="info"><div class="info-1"><div class="info-item-1">Previous</div><div class="info-item-2">Cranberry cookies</div></div><div class="info-2"><div class="info-item-1">材料 下面大概是一盘30块饼干的用量  [x] 低筋面粉：230g [x] 糖粉：60g [x] 鸡蛋液：50g（一个🥚） [x] 黄油：120g [x] 淡奶油🥛：10g（没有可以用些许牛奶代替，或者干脆不加） [x] 蔓越莓：80~100g  流程  黄油软化（可微波炉解冻加热30s＋，但注意别彻底融化） 将蔓越莓干切碎，越碎越好 往黄油筛入糖粉 翻拌糖粉，注意分三次往其中加入鸡蛋液 加入淡奶油 往里面筛入低筋面粉 搅拌面粉，搅啊搅啊搅… 往里倒入切好的蔓越莓干碎，然后搅拌搅拌 将搅拌好的粉整形，并固定成长条状 冰箱急冻1小时至其完全冻硬 烤箱预热180∘C180^\circ C180∘C 此时将长条切成片往烤盘摆好 烤箱160∘C160^\circ C160∘C开烤！！！ 等待20分钟，就完成啦~  成品  </div></div></div></a><a class="pagination-related" href="/2023/03/28/aes/aes/" title="AES"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-right"><div class="info-1"><div class="info-item-1">Next</div><div class="info-item-2">AES</div></div><div class="info-2"><div class="info-item-1">AES(ADVANCED ENCRYPTION STANDARD)是一种对称加解密算法。 以下内容字长均为4字节。 下图给出了AES加解密的流程，从图中可以看出：1）解密算法的每一步分别对应加密算法的逆操作，2）加解密所有操作的顺序正好是相反的。正是由于这几点（再加上加密算法与解密算法每步的操作互逆）保证了算法的正确性。加解密中每轮的密钥分别由种子密钥经过密钥扩展算法得到。算法中16字节的明文、密文和轮子密钥都以一个4x4的矩阵表示。  Bytes 字节的每一位按{b7,  b6,  b6,  b2,  b3,  b3,  b2,  b1,  b0}\{b_{7},\ \ b_{6},\ \ b_{6},\ \ b_{2},\ \ b_{3},\ \ b_{3},\ \ b_{2},\ \ b_{1},\ \ b_{0}\}{b7​,  b6​,  b6​,  b2​,  b3​,  b3​,  b2​,  b1​,  b0​}表示， b(x)=b7x7+b6x6+b5x5+b4x4+b3x3+b2x2+b1x+b0=∑i=07bixib(x)=b_{7}x^{7}+b_{6}x...</div></div></div></a></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>Related Articles</span></div><div class="relatedPosts-list"><a class="pagination-related" href="/2023/03/12/spi/spi/" title="SPI"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2023-03-12</div><div class="info-item-2">SPI</div></div><div class="info-2"><div class="info-item-1">SPI（Serial Peripheral Interface）是一种全双工的同步串行通信协议。 特点 硬件架构：SPI使用一组主/从架构，其中一个设备（通常是微控制器）充当主设备，控制通信和时序，其他设备则作为从设备响应主设备的命令。 信号：SPI使用四个信号进行通信：  MOSI: Master Output, Slave Input. MISO: Master Input, Slave Output. SCK: Serial Clock, 由主设备产生。 SS: Slave Select (Chip select)，由主设备控制，低电平期间有效。  传输模式：SPI协议支持四种传输模式，具体取决于时钟极性（CPOL: clock polarity）和时钟相位（CPHA: clock phase）。  Mode 0: CPOL=0, CPHA=0 Mode 1: CPOL=0, CPHA=1 Mode 2: CPOL=1, CPHA=0 Mode 3: CPOL=1, CPHA=1    缺点：SPI协议缺少错误检测和校验机制，因此在传输数据时需要特别小心，以确保数据的完整性...</div></div></div></a></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="https://avatars.githubusercontent.com/u/39004468?s=400&amp;u=fd45b1d0b37e6e3a67afae8da29319f562a26250&amp;v=4" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">Fore</div><div class="author-info-description"></div><div class="site-data"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">6</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">8</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">3</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/forecuty"><i class="fab fa-github"></i><span>Contact Me</span></a></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>Contents</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Abbreviation"><span class="toc-number">1.</span> <span class="toc-text">Abbreviation</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Classification"><span class="toc-number">2.</span> <span class="toc-text">Classification</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#SD-card"><span class="toc-number">2.1.</span> <span class="toc-text">SD card</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Bus-protocol"><span class="toc-number">3.</span> <span class="toc-text">Bus protocol</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Command-Response-Data"><span class="toc-number">3.1.</span> <span class="toc-text">Command &amp; Response &amp; Data</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#Command"><span class="toc-number">3.1.1.</span> <span class="toc-text">Command</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Response"><span class="toc-number">3.1.2.</span> <span class="toc-text">Response</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Data"><span class="toc-number">3.1.3.</span> <span class="toc-text">Data</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Registers"><span class="toc-number">4.</span> <span class="toc-text">Registers</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#OCR"><span class="toc-number">4.1.</span> <span class="toc-text">OCR</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#CID"><span class="toc-number">4.2.</span> <span class="toc-text">CID</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#CSD"><span class="toc-number">4.3.</span> <span class="toc-text">CSD</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#RCA"><span class="toc-number">4.4.</span> <span class="toc-text">RCA</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#DSR"><span class="toc-number">4.5.</span> <span class="toc-text">DSR</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#SCR"><span class="toc-number">4.6.</span> <span class="toc-text">SCR</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Physical"><span class="toc-number">5.</span> <span class="toc-text">Physical</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Card-Detect"><span class="toc-number">5.1.</span> <span class="toc-text">Card Detect</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Write-Protect"><span class="toc-number">5.2.</span> <span class="toc-text">Write Protect</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#State-machine"><span class="toc-number">6.</span> <span class="toc-text">State machine</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Inactive-mode"><span class="toc-number">6.1.</span> <span class="toc-text">Inactive mode</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Card-Identification-Mode"><span class="toc-number">6.2.</span> <span class="toc-text">Card Identification Mode</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#Card-reset"><span class="toc-number">6.2.1.</span> <span class="toc-text">Card reset</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Condition-validation"><span class="toc-number">6.2.2.</span> <span class="toc-text">Condition validation</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#Send-Interface-Condition-Command"><span class="toc-number">6.2.2.1.</span> <span class="toc-text">Send Interface Condition Command</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#Send-Operation-Condition-Command"><span class="toc-number">6.2.2.2.</span> <span class="toc-text">Send Operation Condition Command</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Bus-Signal-Voltage-Switch"><span class="toc-number">6.2.3.</span> <span class="toc-text">Bus Signal Voltage Switch</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Identification-State-Stand-by-State"><span class="toc-number">6.2.4.</span> <span class="toc-text">Identification State &amp; Stand-by State</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Data-Transfer-Mode"><span class="toc-number">6.3.</span> <span class="toc-text">Data Transfer Mode</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#Card-Lock-Unlock-Operation"><span class="toc-number">6.3.1.</span> <span class="toc-text">Card Lock&#x2F;Unlock Operation</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Wide-Bus-Selection-Deselection"><span class="toc-number">6.3.2.</span> <span class="toc-text">Wide Bus Selection&#x2F;Deselection</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Switch-Function"><span class="toc-number">6.3.3.</span> <span class="toc-text">Switch Function</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Tuning"><span class="toc-number">6.3.4.</span> <span class="toc-text">Tuning</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Erase-operation"><span class="toc-number">6.3.5.</span> <span class="toc-text">Erase operation</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Read-operation"><span class="toc-number">6.3.6.</span> <span class="toc-text">Read operation</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Write-operation"><span class="toc-number">6.3.7.</span> <span class="toc-text">Write operation</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#References"><span class="toc-number">7.</span> <span class="toc-text">References</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>Recent Posts</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2025/11/14/cranberry_cookies/cranberry_cookies/" title="Cranberry cookies"><img src="/images/cover_cranberry_cookies.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Cranberry cookies"/></a><div class="content"><a class="title" href="/2025/11/14/cranberry_cookies/cranberry_cookies/" title="Cranberry cookies">Cranberry cookies</a><time datetime="2025-11-14T15:00:00.000Z" title="Created 2025-11-14 23:00:00">2025-11-14</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2025/11/14/sponge_cake/sponge_cake/" title="Sponge cake"><img src="/images/cover_sponge_cake.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Sponge cake"/></a><div class="content"><a class="title" href="/2025/11/14/sponge_cake/sponge_cake/" title="Sponge cake">Sponge cake</a><time datetime="2025-11-14T15:00:00.000Z" title="Created 2025-11-14 23:00:00">2025-11-14</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/04/22/sdio/sdio/" title="SD">SD</a><time datetime="2024-04-21T16:04:00.000Z" title="Created 2024-04-22 00:04:00">2024-04-22</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/03/28/aes/aes/" title="AES">AES</a><time datetime="2023-03-28T15:49:00.000Z" title="Created 2023-03-28 23:49:00">2023-03-28</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/03/12/spi/spi/" title="SPI">SPI</a><time datetime="2023-03-11T16:00:45.000Z" title="Created 2023-03-12 00:00:45">2023-03-12</time></div></div></div></div></div></div></main><footer id="footer" style="background: transparent;"><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;&nbsp;2025 By Fore</span></div><div class="footer_custom_text">(。・∀・)ノ</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="Reading Mode"><i class="fas fa-book-open"></i></button><button id="hide-aside-btn" type="button" title="Toggle Between Single-column and Double-column"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="Settings"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="Table of Contents"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="Back to Top"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=5.5.2"></script><script src="/js/main.js?v=5.5.2"></script><div class="js-pjax"></div><script async data-pjax src="/"></script></div></body></html>

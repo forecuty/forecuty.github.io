@@ -1,0 +1,15 @@
+/* 侧边卡片的透明度
+:root {
+  --card-bg: rgba(255, 255, 255, 0.8);
+}
+
+[data-theme="dark"] {
+  --card-bg: rgba(255, 255, 255, 0.2);
+} */
+
+
+@font-face {
+  font-family: 'unifont';
+  font-display: swap;
+  src: url('/fonts/unifont-17.0.03.otf') format("truetype");
+}
